@@ -1,0 +1,12 @@
+:root{
+      --sm-sc : 13px;
+      --md-sc : 16px;
+      --lg-sc : 18px;
+}
+.para{
+      font-size: clamp(var(--sm-sc), 2vw, var(--md-sc));
+}
+
+.ltr-s-1{letter-spacing: 1px;}
+.ltr-s-2{letter-spacing: 2px;}
+.ltr-s-3{letter-spacing: 3px;}
