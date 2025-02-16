@@ -92,8 +92,8 @@ secretories.forEach(secretory => {
             +`${socials.map(socail=>{
                 const key = Object.keys(socail)[0]
                 const value = socail[key]
-                return `<a href="${value[0]}" target="_blank" class="text-muted duration-100 hover:scale-125 ease-in ${value[1]}"></a>`
-            }).join('')}`+`
+                return `<a href="${value[0]}" target="_blank" class="text-muted duration-100 hover:scale-150 ease-in ${value[1]}"></a>`
+            }).join(' ')}`+`
             </div>
           </div>
         </div>
