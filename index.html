@@ -21,29 +21,32 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
     />
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    
   </head>
   <body>
     <!-- Title of site -->
-    <div class="title bg-slate-100 d-lg-flex d-none align-items-center flex-column justify-content-center">
+    <div
+      class="title bg-slate-100 d-lg-flex d-none align-items-center flex-column justify-content-center"
+    >
       <img
-            src="images/swalogo.png"
-            style="mix-blend-mode: darken"
-            alt="Logo"
-            width="100"
-            height="100"
-            class="d-inline-block align-text-center"
-          />
+        src="images/swalogo.png"
+        style="mix-blend-mode: darken"
+        alt="Logo"
+        width="100"
+        height="100"
+        class="d-inline-block align-text-center"
+      />
       <span class="fs-1">Student Welfare Association</span>
     </div>
     <!-- Title ends here -->
 
     <!-- Navbar  -->
     <nav
-      class=" navbar navbar-expand-lg shadow border-bottom bg-body-tertiary sticky-top"
+      class="navbar navbar-expand-lg shadow border-bottom bg-body-tertiary sticky-top"
       data-bs-theme="light"
     >
       <div class="container-fluid">
-        <a class="navbar-brand d-lg-none d-block fs-2"
+        <a class="navbar-brand d-lg-none d-block fs-2" href="index.html"
           ><img
             src="images/swalogo.png"
             style="mix-blend-mode: darken"
@@ -69,16 +72,17 @@
           tabindex="-1"
           id="offcanvasNavbar"
           aria-labelledby="offcanvasNavbarLabel"
-          style="width: 320px;"
+          style="width: 320px"
         >
-        <div class="text-end px-4 pt-4 d-lg-none">
-          <button
-          type="button"
-          class="btn-close"
-          data-bs-dismiss="offcanvas"
-          aria-label="Close"></button>
-        </div>
-        
+          <div class="text-end px-4 pt-4 d-lg-none">
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+
           <img
             src="images/swalogo.png"
             class="mx-auto d-lg-none"
@@ -86,19 +90,21 @@
             width="100px"
             alt=""
           />
-          
+
           <div class="offcanvas-header">
             <h5
               class="offcanvas-title text-uppercase fw-bold fs-6"
-              id="offcanvasNavbarLabel">
+              id="offcanvasNavbarLabel"
+            >
               Student Welfare Association
             </h5>
-            
           </div>
           <div class="offcanvas-body">
             <ul class="navbar-nav mx-lg-auto ms-auto mb-2 mb-lg-0 text-lg">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="index.html"
+                  >Home</a
+                >
               </li>
               <li class="nav-item dropdown">
                 <a
@@ -106,11 +112,14 @@
                   href="#"
                   role="button"
                   data-bs-toggle="dropdown"
-                  aria-expanded="false">
+                  aria-expanded="false"
+                >
                   About
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">About Us</a></li>
+                  <li>
+                    <a class="dropdown-item" href="about us.html">About Us</a>
+                  </li>
                   <li><a class="dropdown-item" href="#">Mission</a></li>
                   <li><a class="dropdown-item" href="#">Vision</a></li>
                 </ul>
@@ -121,18 +130,29 @@
                   href="#"
                   role="button"
                   data-bs-toggle="dropdown"
-                  aria-expanded="false">
+                  aria-expanded="false"
+                >
                   Administration
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="president.html">President</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="secretory.html">Secretory</a></li>
-                  <li><a class="dropdown-item" href="treasury.html">Treasury</a></li>
                   <li>
-                    <a class="dropdown-item" href="boards of director.html">Board Of Director</a>
+                    <a class="dropdown-item" href="president.html">President</a>
                   </li>
-                  <li><a class="dropdown-item" href="advisor.html">Advisor</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="secretory.html">Secretory</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="treasury.html">Treasury</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="boards of director.html"
+                      >Board Of Director</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="advisor.html">Advisor</a>
+                  </li>
                 </ul>
               </li>
               <li class="nav-item dropdown">
@@ -141,12 +161,27 @@
                   href="#"
                   role="button"
                   data-bs-toggle="dropdown"
-                  aria-expanded="false">
+                  aria-expanded="false"
+                >
                   Program Details
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="resource/docs/prgrams_pdf/Motivational Seminar 2018-19_240105_201937.pdf" target="_blank">2018-19</a></li>
-                  <li><a class="dropdown-item" href="resource/docs/prgrams_pdf/Motivational Seminar 2019-20_240105_202046.pdf" target="_blank">2019-20</a></li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="resource/docs/prgrams_pdf/Motivational Seminar 2018-19_240105_201937.pdf"
+                      target="_blank"
+                      >2018-19</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="resource/docs/prgrams_pdf/Motivational Seminar 2019-20_240105_202046.pdf"
+                      target="_blank"
+                      >2019-20</a
+                    >
+                  </li>
                 </ul>
               </li>
               <li class="nav-item dropdown">
@@ -155,7 +190,8 @@
                   href="#"
                   role="button"
                   data-bs-toggle="dropdown"
-                  aria-expanded="false">
+                  aria-expanded="false"
+                >
                   Information
                 </a>
                 <ul class="dropdown-menu">
@@ -175,11 +211,16 @@
                   href="#"
                   role="button"
                   data-bs-toggle="dropdown"
-                  aria-expanded="false">
+                  aria-expanded="false"
+                >
                   Registration
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="registration.html">Join Us</a></li>
+                  <li>
+                    <a class="dropdown-item" href="registration.html"
+                      >Join Us</a
+                    >
+                  </li>
                   <li><a class="dropdown-item" href="#">Our Members</a></li>
                 </ul>
               </li>
@@ -189,16 +230,19 @@
                   href="#"
                   role="button"
                   data-bs-toggle="dropdown"
-                  aria-expanded="false">
+                  aria-expanded="false"
+                >
                   More
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Gallary</a></li>
+                  <li>
+                    <a class="dropdown-item" href="gallery.html">Gallary</a>
+                  </li>
                   <li><a class="dropdown-item" href="#">Notice</a></li>
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Donate</a>
+                <a class="nav-link" href="donate us.html">Donate</a>
               </li>
             </ul>
           </div>
@@ -207,6 +251,238 @@
     </nav>
     <!-- Navbar ends here -->
 
+    <!-- main content goes here  -->
+    <main class="container-fluid pb-5">
+      <div class="row">
+        <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
+          <ol class="carousel-indicators">
+            <li
+              data-bs-target="#carouselId"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="First slide"
+            ></li>
+            <li
+              data-bs-target="#carouselId"
+              data-bs-slide-to="1"
+              aria-label="Second slide"
+            ></li>
+            <li
+              data-bs-target="#carouselId"
+              data-bs-slide-to="2"
+              aria-label="Third slide"
+            ></li>
+          </ol>
+          <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active">
+              <img
+                src="resource/images/programs/WhatsApp Image 2025-01-23 at 2.24.02 PM.jpeg"
+                class="w-100 d-block"
+                alt="First slide"
+              />
+              <div class="carousel-caption d-none d-md-block text-start">
+                <h3 class="display-3 fw-bold shadow">
+                  Every Good Act Is A Charity
+                </h3>
+                <p class="fs-3">Donate For educational Capmains</p>
+                <div class="d-flex justify-content-center gap-4">
+                  <button class="btn btn-lg btn-light"><i class="bi bi-person-fill me-2"></i>How We Help</button>
+                  <button class="btn btn-lg btn-light"><i class="bi bi-wallet2 me-2"></i>Donate Us</button>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="resource/images/programs/WhatsApp Image 2025-01-23 at 2.23.59 PM.jpeg"
+                class="w-100 d-block"
+                alt="Second slide"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h3 class="display-3 fw-bold shadow">
+                  Guiding Studens regarding trafic rules
+                </h3>
+                <p>
+                  Had one-to-one conversations with students to help them
+                  understand traffic rules and raise awareness about traffic
+                  regulations. The session included interactive discussions,
+                  practical demonstrations, and distribution of informative
+                  pamphlets. Students were encouraged to ask questions and share
+                  their experiences, making the session highly engaging and
+                  informative. The goal was to instill a sense of responsibility
+                  and awareness about the importance of following traffic rules
+                  for their safety and the safety of others.
+                </p>
+                
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="resource/images/programs/WhatsApp Image 2025-01-23 at 2.24.23 PM.jpeg"
+                class="w-100 d-block"
+                alt="Third slide"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h3 class="display-3 fw-bold shadow">
+                  Guiding Studens regarding trafic rules
+                </h3>
+                <p>
+                  Had one-to-one conversations with students to help them
+                  understand traffic rules and raise awareness about traffic
+                  regulations. The session included interactive discussions,
+                  practical demonstrations, and distribution of informative
+                  pamphlets. Students were encouraged to ask questions and share
+                  their experiences, making the session highly engaging and
+                  informative. The goal was to instill a sense of responsibility
+                  and awareness about the importance of following traffic rules
+                  for their safety and the safety of others.
+                </p>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselId"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselId"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      <div
+        class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 p-3 g-3 py-5 my-5"
+      >
+        <div class="col">
+          <div class="card">
+            <img
+              class="card-img-top"
+              src="resource/images/programs/WhatsApp Image 2025-01-23 at 2.24.02 PM.jpeg"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Guiding Studens regarding trafic rules</h5>
+              <p class="card-text text-justify text-sm">
+                Had one-to-one conversations with students to help them
+                understand traffic rules and raise awareness about traffic
+                regulations. The session included interactive discussions,
+                practical demonstrations, and distribution of informative
+                pamphlets. Students were encouraged to ask questions and share
+                their experiences, making the session highly engaging and
+                informative.
+              </p>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img
+              class="card-img-top"
+              src="resource/images/programs/WhatsApp Image 2025-01-23 at 2.23.59 PM.jpeg"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Guiding Studens regarding trafic rules</h5>
+              <p class="card-text text-sm">
+                Had one-to-one conversations with students to help them
+                understand traffic rules and raise awareness about traffic
+                regulations. The session included interactive discussions,
+                practical demonstrations, and distribution of informative
+                pamphlets. Students were encouraged to ask questions and share
+                their experiences, making the session highly engaging and
+                informative.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img
+              class="card-img-top"
+              src="resource/images/programs/WhatsApp Image 2025-01-23 at 2.24.23 PM.jpeg"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title text-sm">Guiding Studens regarding trafic rules</h5>
+              <p class="card-text text-sm">
+                Had one-to-one conversations with students to help them
+                understand traffic rules and raise awareness about traffic
+                regulations. The session included interactive discussions,
+                practical demonstrations, and distribution of informative
+                pamphlets. Students were encouraged to ask questions and share
+                their experiences, making the session highly engaging and
+                informative.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img
+              class="card-img-top"
+              src="resource/images/programs/WhatsApp Image 2025-01-23 at 2.24.23 PM.jpeg"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Guiding Studens regarding trafic rules</h5>
+              <p class="card-text text-sm">
+                Had one-to-one conversations with students to help them
+                understand traffic rules and raise awareness about traffic
+                regulations. The session included interactive discussions,
+                practical demonstrations, and distribution of informative
+                pamphlets. Students were encouraged to ask questions and share
+                their experiences, making the session highly engaging and
+                informative.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="row my-5 py-5 row-cols-1 row-cols-md-2 row-cols-lg-2 px-3 g-3"
+      >
+        <div class="col">
+          <div class="card">
+            <div class="card-header">our mission</div>
+            <div class="card-body">
+              <p>
+                Focusing on student welfare indicates a commitment to improving
+                the well-being, academic success, and overall experiences of
+                students. This could involve advocating for better educational
+                policies, mental health support, and resources to create a
+                conducive learning environment.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <div class="card-header">our vision</div>
+            <div class="card-body">
+              <p>
+                Focusing on student welfare indicates a commitment to improving
+                the well-being, academic success, and overall experiences of
+                students. This could involve advocating for better educational
+                policies, mental health support, and resources to create a
+                conducive learning environment.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- main content ends here  -->
     <!-- Footer -->
     <footer
       class="text-center text-lg-start text-white bg-purple-800 ease-out duration-300"
@@ -248,23 +524,35 @@
               >
                 Let's Talk
               </h6>
-              <p class="text-md hover:scale-102 transition duration-100 ease-in-out">
-                <i class="bi bi-house text-md mr-3"></i> Student Welfare Association,
-                Umred
+              <p
+                class="text-md hover:scale-102 transition duration-100 ease-in-out"
+              >
+                <i class="bi bi-house text-md mr-3"></i> Student Welfare
+                Association, Umred
               </p>
-              <p class="text-md hover:scale-102 transition duration-100 ease-in-out">
+              <p
+                class="text-md hover:scale-102 transition duration-100 ease-in-out"
+              >
                 <i class="bi bi-envelope-paper mr-3 text-md"></i>
                 swaudn@gmail.com
               </p>
-              <p class="text-md hover:scale-102 transition duration-100 ease-in-out"><i class="bi bi-phone mr-3 text-md"></i> + 91 9423403193</p>
-              <p class="text-md hover:scale-102 transition duration-100 ease-in-out"><i class="bi bi-whatsapp mr-3 text-md"></i> + 91 9021150048</p>
+              <p
+                class="text-md hover:scale-102 transition duration-100 ease-in-out"
+              >
+                <i class="bi bi-phone mr-3 text-md"></i> + 91 9423403193
+              </p>
+              <p
+                class="text-md hover:scale-102 transition duration-100 ease-in-out"
+              >
+                <i class="bi bi-whatsapp mr-3 text-md"></i> + 91 9021150048
+              </p>
             </div>
             <!-- Grid column -->
 
             <!-- Grid column -->
             <div class="col-md-2 mx-auto mt-3">
               <h6
-                class="text-uppercase text-center mb-4 fw-bold "
+                class="text-uppercase text-center mb-4 fw-bold"
                 style="letter-spacing: 2px"
               >
                 Follow us
@@ -279,7 +567,7 @@
               >
                 <!-- Facebook -->
                 <a
-                  class="btn btn-primary btn-floating m-1 "
+                  class="btn btn-primary btn-floating m-1"
                   style="background-color: #3b5998"
                   href="#!"
                   role="button"

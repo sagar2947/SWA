@@ -49,7 +49,7 @@
       data-bs-theme="light"
     >
       <div class="container-fluid">
-        <a class="navbar-brand d-lg-none d-block fs-2"
+        <a class="navbar-brand d-lg-none d-block fs-2" href="index.html"
           ><img
             src="images/swalogo.png"
             style="mix-blend-mode: darken"
@@ -105,7 +105,9 @@
           <div class="offcanvas-body">
             <ul class="navbar-nav mx-lg-auto ms-auto mb-2 mb-lg-0 text-lg">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="index.html"
+                  >Home</a
+                >
               </li>
               <li class="nav-item dropdown">
                 <a
@@ -118,7 +120,9 @@
                   About
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">About Us</a></li>
+                  <li>
+                    <a class="dropdown-item" href="about us.html">About Us</a>
+                  </li>
                   <li><a class="dropdown-item" href="#">Mission</a></li>
                   <li><a class="dropdown-item" href="#">Vision</a></li>
                 </ul>
@@ -234,7 +238,9 @@
                   More
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Gallary</a></li>
+                  <li>
+                    <a class="dropdown-item" href="gallery.html">Gallary</a>
+                  </li>
                   <li><a class="dropdown-item" href="#">Notice</a></li>
                 </ul>
               </li>
@@ -247,6 +253,180 @@
       </div>
     </nav>
     <!-- Navbar ends here -->
+
+    <!-- Fullscreen Carousel -->
+    <div class="container-fluid py-3">
+      <div
+        id="about-us-carousel"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#about-us-carousel"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#about-us-carousel"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#about-us-carousel"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#about-us-carousel"
+            data-bs-slide-to="3"
+            aria-label="Slide 4"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="resource/images/programs/WhatsApp Image 2025-01-23 at 2.23.59 PM.jpeg"
+              class="d-block w-100"
+              alt="Slide 1"
+            />
+            <div
+              class="carousel-caption d-none d-md-block"
+              style="background-color: #22222288"
+            >
+              <p class="display-5 fw-bold rounded">Interaction With Students</p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
+                fugit accusamus, voluptates nam commodi dignissimos atque,
+                veniam voluptatibus quibusdam illo dolorem harum dolores
+                necessitatibus tenetur voluptas tempora eligendi debitis
+                accusantium.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="resource/images/programs/WhatsApp Image 2025-01-23 at 2.24.21 PM (2).jpeg"
+              class="d-block w-100"
+              alt="Slide 2"
+            />
+            <div
+              class="carousel-caption d-none d-md-block"
+              style="background-color: #22222288"
+            >
+              <p class="display-5 fw-bold rounded">Interaction With Students</p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
+                fugit accusamus, voluptates nam commodi dignissimos atque,
+                veniam voluptatibus quibusdam illo dolorem harum dolores
+                necessitatibus tenetur voluptas tempora eligendi debitis
+                accusantium.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="resource/images/programs/WhatsApp Image 2025-01-23 at 2.24.02 PM.jpeg"
+              class="d-block w-100"
+              alt="Slide 3"
+            />
+            <div
+              class="carousel-caption d-none d-md-block"
+              style="background-color: #22222288"
+            >
+              <p class="display-5 fw-bold rounded">Interaction With Students</p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
+                fugit accusamus, voluptates nam commodi dignissimos atque,
+                veniam voluptatibus quibusdam illo dolorem harum dolores
+                necessitatibus tenetur voluptas tempora eligendi debitis
+                accusantium.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="resource/images/programs/WhatsApp Image 2025-01-23 at 2.24.03 PM.jpeg"
+              class="d-block w-100"
+              alt="Slide 4"
+            />
+            <div
+              class="carousel-caption d-none d-md-block"
+              style="background-color: #22222288"
+            >
+              <p class="display-5 fw-bold rounded">Interaction With Students</p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
+                fugit accusamus, voluptates nam commodi dignissimos atque,
+                veniam voluptatibus quibusdam illo dolorem harum dolores
+                necessitatibus tenetur voluptas tempora eligendi debitis
+                accusantium.
+              </p>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#about-us-carousel"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#about-us-carousel"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Fullscreen Carousel ends here -->
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class="text-center mt-5">About Us</h1>
+          <p class="text-center mt-3">
+            Student Welfare Association is a non-profit organization that works
+            for the welfare of students. It is a group of students who work for
+            the welfare of students.
+          </p>
+          <p class="text-center mt-3">
+            Established in 2010, the Student Welfare Association has been
+            dedicated to supporting students in various aspects of their
+            academic and personal lives. Our mission is to create a nurturing
+            environment where students can thrive and achieve their full
+            potential.
+          </p>
+          <p class="text-center mt-3">
+            Over the years, we have organized numerous events and programs aimed
+            at enhancing the educational experience of students. These include
+            motivational seminars, workshops, and community service projects.
+            Our efforts have been recognized by various educational institutions
+            and organizations.
+          </p>
+          <p class="text-center mt-3">
+            Our vision is to continue expanding our reach and impact, ensuring
+            that every student has access to the resources and support they need
+            to succeed. We believe in the power of collaboration and are always
+            looking for new ways to engage with the community and make a
+            positive difference.
+          </p>
+        </div>
+      </div>
+    </div>
 
     <!-- Footer -->
     <footer
